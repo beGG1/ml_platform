@@ -1,0 +1,1 @@
+# TODO: make train and predict alg for simple linear regression (not Ridge ...)

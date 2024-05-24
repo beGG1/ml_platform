@@ -10,15 +10,13 @@ router = APIRouter(
 )
 
 
-@router.get("/", response_model=FilterGetAllResponse)
+@router.get("/get_filters", response_model=FilterGetAllResponse)
 def get_filters():
-    a = FilterInput(
-        name="lol1",
-        input_type="str",
-    )
-    b = FilterSchema(
-        name="lol",
-        description="lol",
-        inputs=[a]
-    )
-    return FilterGetAllResponse(filters=[b])
+    # TODO: Get all filters that are availible
+    pass
+
+
+@router.post("/filter", response_model=FilterSchema)
+def filter():
+    # TODO: Make resp and req models + filters
+    ...
