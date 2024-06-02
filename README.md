@@ -1,2 +1,2 @@
 # ml_platform
-Stepa is geniuds
+Stepa is geniuds jk
